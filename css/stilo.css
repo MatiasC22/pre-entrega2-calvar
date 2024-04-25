@@ -24,8 +24,23 @@ body {
     color: white;
 }
 
+/* Main  */
+
 .main-principal{
     display: flex;
+
+}
+
+.main-principal img{
+    border-radius: 255px;
+}
+
+main h3 p{
+    color: aliceblue;
+}
+
+main p{
+    color: aliceblue;
 }
 
 main img {
@@ -39,11 +54,20 @@ main section{
     display: block;
 }
 
+/* Barra de Navegacion */
+
+.navegacion{
+    background-color: rgb(209, 211, 101);
+    padding: 10px;
+}
+
 .navegacion ul {
     display: flex;
     background-color: rgb(201, 88, 88);
     list-style-type: none;
     justify-content: center;
+    border-radius: 30px;
+
 }
 
 .navegacion .barrasup li img{
@@ -61,13 +85,20 @@ main section{
 .navegacion ul li a{
     color: white;
     text-align: center;
+    box-shadow: 2px 2px;
     
 }
+
+.navbar-brand {
+    font-size: 30px; !important
+}
+
+/* Titulo */
 
 .titulo h1{
     background-color: rgb(129, 131, 14);
     text-align: center;
-
+    
 }
 
 .form input{
@@ -77,14 +108,29 @@ main section{
 
 }
 
+/* Footer */
+
 footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
     background-color: rgb(161, 184, 226);
     color: black;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
     padding: 20px;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
 
 div div iframe {
@@ -98,4 +144,13 @@ div div iframe {
 
 div .texto{
     color: white;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        
+        flex-direction: row-reverse;
+    }
 }
