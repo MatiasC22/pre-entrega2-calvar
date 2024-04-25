@@ -57,7 +57,7 @@ main section{
 /* Barra de Navegacion */
 
 .navegacion{
-    background-color: rgb(209, 211, 101);
+    background-color: rgb(230, 233, 42);
     padding: 10px;
 }
 
@@ -89,9 +89,9 @@ main section{
     
 }
 
-.navbar-brand {
-    font-size: 30px; !important
-}
+/* .navbar-brand {
+    
+} */
 
 /* Titulo */
 
